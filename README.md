@@ -2,10 +2,10 @@
 
 [简体中文](docs/README_zh_CN.md)
 
-## Installation/Operation
+## Installation & Run
 ### 1. Install dependencies
-```bash
 Install the open62541 library
+```bash
 git clone https://github.com/open62541/open62541.git
 cd open62541/
 mkdir build && cd build
@@ -20,7 +20,7 @@ mkdir build && cd build
 cmake ..
 make
 ```
-### 3. Operation
+### 3. Launch
 ```bash
 ./opcua_server
 ```
